@@ -1,0 +1,644 @@
+/* Main section starts */
+.main-banner {
+  background-image: url(./images/hosting-company-01.png); 
+  background-repeat: no-repeat;    
+  background-size: contain;       
+  background-position: center bottom; 
+  background-color: hsl(216, 88%, 46%);      
+  padding: 7.5rem 0;                 
+}
+
+.main-banner__items {
+  display: flex;                  
+  align-items: center;             
+  justify-content: space-between;  
+  gap: 2.5rem;                      
+  padding-top: 1.5rem;              
+  padding-bottom: 10vw;            
+}
+
+
+.main-banner__heading {
+  font-size: 3.25rem;               
+  color: #fff;                     
+  margin-bottom: 1.25rem;           
+}
+
+
+.main-section__paragraph {
+  font-size: 1.125rem;                
+  line-height: 2rem;              
+  color: #f8f8f8;                  
+  margin-bottom: 1.875rem;            
+}
+
+.main-section-button{
+  font-size: 1.125rem;
+  padding: 1.25rem 3.125rem;            
+  background-color: #263547;          
+  color: #fff;                 
+  border: none;                    
+  border-radius: 0.5rem;              
+  cursor: pointer;                
+  font-weight: bold;               
+}
+
+.main-banner__item img{
+    display: flex;
+    width: 31.875rem;
+    height: auto;
+    padding: 1.875rem;
+}
+
+.main-section__price{
+  display: flex;
+}
+
+.price-item{
+  padding: 0 1.875rem;
+}
+
+/* Main section ends */
+
+/* Our services starts  */
+.our-section{
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.our-section .container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.75rem;
+}
+
+.our-section__item h3{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3.8rem;
+}
+
+.our-section__info{
+  padding-left: 5.625rem;
+}
+
+.our-section__item button{
+  font-size: 0.75rem;
+  padding: 0.93rem 1.875rem;             
+  background-color: hsl(216, 88%, 46%);        
+  color: #fff;                 
+  border: none;                  
+  border-radius: 0.5rem;             
+  cursor: pointer;                 
+  font-weight: bold;              
+  text-transform: uppercase;
+}
+
+.second-our__section{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 3.75rem;
+  gap: 3.125rem;
+}
+
+.our-section__image img{
+  margin-bottom: 0.625rem;
+}
+
+.our-section__item .second-1{
+  margin-top: 7.5rem;
+}
+
+.our-section__item .second-2{
+  margin-top: 1.875rem;
+}
+
+.second-section__info{
+  margin-top: 2.5rem;
+  background-color: #fff;
+  padding-bottom: 2.1875rem;
+  border-radius: 0.625rem;
+  width: 23.125rem;
+  height: auto;
+}
+
+.second-section__info>h4{
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0 1.875rem;
+}
+
+.second-section__info p{
+  line-height: 1.5rem;
+  font-size: 0.81rem;
+  margin-top: 0.625rem;
+  font-style: italic;
+  font-weight: 100;
+  padding: 0 1.875rem;
+}
+
+.second-section__info a{
+  font-size: 0.75rem;
+  padding: 1.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(216, 88%, 46%);
+}
+  /* Our services ends */
+
+  /* Our feautures section starts */
+  .our-feauture__items{
+    padding: 0 5rem;
+    margin: 1.25rem;
+  }
+
+  .feauteres-cut{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 3.125rem;
+    gap: 2.8rem;
+  }
+
+  .our-feautures__item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .our-feautures__info h3{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .our-feautures__info img{
+    width: 31.8rem;
+    height: auto;
+  }
+
+  .our-feautures__info p{
+    line-height: 1.875rem;
+    font-size: 0.9rem;
+  }
+
+  .our-feautures__item{
+   margin: 3.125rem 0;
+  }
+
+  .feautures-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.625rem;
+  }
+
+  .feautures-image img{
+    padding: 0.625rem;
+  }
+
+  .feautures-image p{
+    font-size: 0.81rem;
+    line-height: 1.3rem;
+  }
+  /* Our feautures section ends */
+
+/* Pricing section starts */
+.pricing-section__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 3.43rem; 
+  margin-bottom: 2.5rem;
+}
+
+.pricing-section__item h3, 
+.pricing-section__item .price,
+.pricing-section__item .feature{
+  padding-left: 1.875rem;
+}
+
+.pricing-section__item {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.625rem 1rem rgba(0,0,0,0.05);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 1.875rem;
+  font-size: 1.68rem;
+}
+
+.active-1{
+ color: #ff8f00;
+}
+
+.active-2{
+  color: #1e90ff;
+}
+
+.active-3{
+  color: hsl(138, 76%, 38%);
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.price h2{
+  font-size: 2.8rem;
+
+}
+
+.price sub{
+  margin-bottom: 0.9rem;
+  color: hwb(0 73% 26%);
+}
+
+.price sup{
+  margin-top: 0.9rem;
+  color: hwb(0 73% 26%);
+  padding: 0.3rem;
+}
+
+  .line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: hwb(0 81% 19%);
+  margin: 0.5rem auto 1rem;
+  border-radius: 0.25rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.6rem;
+  line-height: 0.3rem;
+  font-size: 1.25rem;
+  color: hwb(0 67% 32%);
+}
+
+.dot {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.blue{
+  background-color: #1e90ff;
+}
+
+.button-blue{
+  color: #fff;
+   background-color: #1e90ff;
+}
+
+.orange{
+  background-color: #ff8f00;
+}
+
+.button-orange{
+  color: #ff8f00;
+  background-color: #f3d9b6;
+}
+
+.green{
+  background-color: hsl(138, 76%, 38%);
+}
+
+.button-green{
+  color: hsl(138, 76%, 38%);
+  background-color: hsl(138, 58%, 76%);
+  
+}
+
+.grey{
+  color: hwb(0 84% 15%);
+}
+
+
+.price-button{
+  display: block;
+  margin: 0.9rem auto;              
+  font-size: 0.75rem;
+  padding: 0.8rem 1.25rem;              
+  border: none;                  
+  border-radius: 0.5rem;             
+  cursor: pointer;                 
+  font-weight: bold;              
+  text-transform: uppercase;
+}
+  /* Pricing section ends */
+
+
+/* File Management section starts */
+ .file-management__items{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 6rem;
+  margin: 3rem;
+
+ }
+
+ .file-management__header h3{
+   font-weight: bold;
+   font-size: 2.6rem;
+ }
+ 
+
+.file-management__image{
+  display: flex;              
+  align-items: center;       
+  gap: 1.25rem;                 
+}
+
+.file-info h3{
+  font-size: 1rem;
+}
+
+.file-info p{
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+ .file-management__item>img{
+  margin-top: 1rem;
+  display: flex;
+  width: 33rem;
+  height: 28rem;
+ }
+
+ .file-management__item button{
+  display: inline-block;
+  margin: 1.8rem auto;               
+  font-size: 0.75rem;
+  padding: 1.3rem 1.6rem;              
+  border: none;                   
+  border-radius: 0.5rem;              
+  cursor: pointer;                
+  font-weight: bold;              
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1e90ff;
+ }
+/* File Management section ends */
+
+/* Talk with section starts */
+.talk-with {
+  height: 70vh;
+  background-image: url(./images/hosting-company-01.png); 
+  background-repeat: no-repeat;    
+  background-size: contain;       
+  background-position: center bottom; 
+  background-color: #ff8f00;      
+  padding: 0.3rem 0; 
+}
+
+.talk-with__section{
+   text-align: center;       
+   padding: 6.25rem 18rem;
+}
+
+.talk-with__section h2{
+  font-size: 3rem;
+  color: #fff;
+}
+
+.talk-with__section p{
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.talk-with__section button{
+  display: inline-block;
+  margin: 1.8rem auto;
+  padding: 1rem 1.8rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Talk with section ends */
+
+/* Easy Setup starts */
+  .easy-setup__items{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 5rem;
+  }
+
+  .easy-setup__header h3{
+    font-size: 2rem;
+  }
+
+  .easy-setup__header p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+  }
+
+  .easy-setup__item button{
+    padding: 1rem 2.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .easy-check{
+     display: flex;
+     align-items: center;
+     gap: 0.6rem;
+  }
+
+  .check{
+    padding: 0 0.1rem;
+    border-radius: 50%;
+    background-color: #ff8f00;
+    color: #fff;
+   
+  }
+
+  .easy-setup__image img{
+    width: 29rem;
+    height: auto;
+  }
+/* Easy Setup ends */
+
+ /* Customer section starts */
+    .customer-header{
+      text-align: center;
+    }
+
+    .customer-header h3{
+      font-size: 2rem;
+    }
+
+    .customer_items{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 4rem;
+      padding: 0 1rem;
+    }
+
+    .customer_item{
+      margin: 0.8rem 0;
+      padding: 0.3rem 1.5rem;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 0.75rem;
+      box-shadow: 0 0.6rem 0.9rem rgba(0,0,0,0.05);
+    }
+
+    .customer_item img{
+      padding: 1.5rem;
+      width: 8.1rem;
+      height: auto;
+      border-radius: 100%;
+    }
+
+    .customer_item p{
+      line-height: 1.5rem;
+      font-size: 0.81rem;
+      color: hwb(0 39% 59%);
+    }
+
+    .customer_item h4{
+      color: hwb(0 41% 56%);
+    }
+
+    .customer_item h5{
+      color: hwb(0 62% 36%);
+    }
+ /* Customer section ends */
+
+ /* Satisfaction section starts */
+    .satisfaction-header{
+      text-align: center;
+      font-size: 1.75rem;
+    }
+
+    .satisfaction-items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 3.75rem;
+      padding: 0 3.75rem;
+    }
+
+    .satisfaction-item{
+      margin: 0.8rem 0;
+      padding: 0.6rem 2.5rem;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 0.75rem;
+      box-shadow: 0 0.6rem 1rem rgba(0,0,0,0.05);
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .satisfaction-item h3{
+      font-size: 1.25rem;
+    }
+
+    .satisfaction-item p{
+      line-height: 1.5rem;
+    }
+
+    .satisfaction-item button{
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.25rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #000000;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .blue{
+      background: url(./images/easy-main.png);
+      background-repeat: no-repeat;
+      background-size: 12.5rem 11.8rem;
+      background-position: 18.7rem 3.1rem;
+      background-color: #1e90ff;
+      opacity: 0.8;
+    }
+
+    .orange{
+      background-color: #ff8f00;
+      background: url(./images/hosting_01.png);
+      background-repeat: no-repeat;
+      background-size: 12.5rem 11.8rem;
+      background-position: 18.7rem 3.1rem;
+      background-color: #ff8f00;
+      opacity: 0.7;
+    }
+ /* Satisfaction section ends */
+
+/* Footer section starts */
+.hosting{
+  background-image: url(./images/hosting-company-01.png);
+  background-repeat: no-repeat;    
+  background-size: contain;        
+  background-position: center bottom; 
+  background-color: hsl(216, 88%, 46%);      
+  padding: 3.1rem 0;
+}
+.hosting-header{
+  text-align: center;
+  margin: 9.3rem 1.8rem;
+  padding: 0  16.8rem;
+}
+
+.hosting-header h3{
+  font-size: 2.6rem;
+}
+
+.hosting-header p{
+  line-height: 1.5rem;
+}
+
+.hosting-header button{
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.81rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #000000;
+}
+
+.hosting-footer{
+  padding: 0 1.25rem;
+  color: #c4c1c1;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.hosting-footer__item i{
+  padding: 1.25rem 0.31rem;
+  font-size: 1.56rem;
+}
+/* Footer section ends */
+
+
